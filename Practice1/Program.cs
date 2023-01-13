@@ -7,4 +7,4 @@ Console.WriteLine("Enter number");
 string input = Console.ReadLine();
 int num = Convert.ToInt32(input);
 int result = num * num;
-Console.WriteLine(result);
+Console.WriteLine($"Square of the {num} is {result}");
